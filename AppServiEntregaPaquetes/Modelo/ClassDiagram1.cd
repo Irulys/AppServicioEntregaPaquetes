@@ -26,8 +26,11 @@
   </Class>
   <Class Name="AppServiEntregaPaquetes.TwoDayPackage">
     <Position X="8.5" Y="4" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Modelo\TwoDayPackage.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -39,22 +42,19 @@
         <Point X="5.42" Y="4" />
         <Point X="5.42" Y="3.896" />
         <Point X="5.08" Y="3.896" />
-        <Point X="5.08" Y="4.618" />
-        <Point X="4.5" Y="4.618" />
+        <Point X="5.08" Y="4.844" />
+        <Point X="4.5" Y="4.844" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Modelo\OvernightPackage.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AppServiEntregaPaquetes.BillsRepositories">
     <Position X="8.75" Y="0.5" Width="1.5" />
-    <Compartments>
-      <Compartment Name="Fields" Collapsed="true" />
-    </Compartments>
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAACAAAAAAAACAAAAAgABAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Modelo\BillsRepositories.cs</FileName>
     </TypeIdentifier>
   </Class>

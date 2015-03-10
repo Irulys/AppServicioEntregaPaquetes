@@ -10,5 +10,10 @@ namespace AppServiEntregaPaquetes
     {
 
         private int field;
+
+        public void calculateCost()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

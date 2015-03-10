@@ -27,5 +27,13 @@ namespace AppServiEntregaPaquetes
             get { return id; }
             set { id = value; }
         }
+
+        private int Bills;
+
+        public int Bills1
+        {
+            get { return Bills; }
+            set { Bills = value; }
+        }
     }
 }
