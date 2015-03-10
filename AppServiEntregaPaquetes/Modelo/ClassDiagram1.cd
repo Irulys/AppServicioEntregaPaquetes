@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppServiEntregaPaquetes.Web.Default" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Web\Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppServiEntregaPaquetes.Packege">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAIQQAACAEAAAAgAgAABBIAAAAACAAAgAAAAo=</HashCode>
+      <FileName>Modelo\Packege.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BillsRepositories" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AppServiEntregaPaquetes.Costumers">
+    <Position X="1.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAIACEACAAgAAAAAAAAAAABAAAAAQAAAA=</HashCode>
+      <FileName>Modelo\Costumers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppServiEntregaPaquetes.TwoDayPackage">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\TwoDayPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppServiEntregaPaquetes.OvernightPackage">
+    <Position X="3" Y="4" Width="1.5" />
+    <InheritanceLine Type="AppServiEntregaPaquetes.Packege" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="4" />
+        <Point X="5.42" Y="4" />
+        <Point X="5.42" Y="3.896" />
+        <Point X="5.08" Y="3.896" />
+        <Point X="5.08" Y="4.618" />
+        <Point X="4.5" Y="4.618" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\OvernightPackage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppServiEntregaPaquetes.BillsRepositories">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Modelo\BillsRepositories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

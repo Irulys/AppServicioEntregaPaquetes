@@ -61,7 +61,12 @@
     <Content Include="Web\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelo\BillsRepositories.cs" />
+    <Compile Include="Modelo\Costumers.cs" />
+    <Compile Include="Modelo\Packege.cs" />
+    <Compile Include="Modelo\OvernightPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modelo\TwoDayPackage.cs" />
     <Compile Include="Web\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -71,7 +76,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClassDiagram1.cd" />
+    <Content Include="Modelo\ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,7 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dato\" />
-    <Folder Include="Modelo\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
